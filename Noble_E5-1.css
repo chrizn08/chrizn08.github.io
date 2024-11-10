@@ -1,0 +1,38 @@
+h1 {
+	color:#BAA0F8 ;
+	text-align: center;
+	font-family: papyrus ;
+}
+
+body {
+	background-color:#302C32 ;
+	color: lightpink ;
+	font-family: monospace;
+	text-align: center;
+}
+
+button {
+			width: 70px;
+			height: 50px;
+			padding:5px;
+			border: 5px inset; lavenderblush;
+			margin: 5px;
+			radius: 5px;
+			font-family: papyrus;
+}
+
+button:link {
+			color: violet;
+		}
+		
+		button:visited {
+			color: blue;
+		}
+		
+		button:hover {
+			color: hotpink;
+		}
+		
+		button:active {
+			color: green;
+		}
