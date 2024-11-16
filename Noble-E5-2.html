@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+ </style>
+<body>
+<script src="Noble-E5-2.js"></script>
+    <link rel="stylesheet" href="Noble-E5-2.css">
+  <p><label for="yourStory">Tell us your story:<br></label></p>
+
+  <textarea id="yourStory" name="yourStory" rows="4" cols="50">It was a dark and stormy night...</textarea>
+
+  <p>Search: <input type="text" id="findInput"></p>
+  <p id="searchDisplay"></p>
+  <p>Replace Search input with: <input type="text" id="replaceInput"></p>
+  <p id="lengthDisplay"></p>
+  <br><button type="button" onclick="searchText()">Search</button>
+  <button type="button" onclick="replaceText()">Replace</button>
+  <button type="button" onclick="getLength()">Get length</button><br>
+  <br />
+  <button type="button" onclick="toUpperCase()">Change Search input to upper case</button>
+  <button type="button" onclick="toLowerCase()">Change Search input to lower case</button><br>
+  <br />
+  <button type="button" onclick="allToUpper()">Change all text to upper case</button>
+  <button type="button" onclick="allToLower()">Change all text to lower case</button><br>
+  <br />
+  <button type="button" onclick="clearText()">Clear Story</button>
+  <button type="button" onclick="clearInput()">Clear Input</button>
+</body>
+</html>
