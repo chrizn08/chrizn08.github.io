@@ -1,0 +1,109 @@
+h1 {
+	color:#BAA0F8 ;
+	text-align: center;
+	font-family: papyrus ;
+}
+
+body {
+	background-color:#302C32 ;
+	color: lightpink ;
+	font-family: monospace;
+	text-align: center;
+}
+
+button {
+			width: auto;
+			height: 50px;
+			padding:5px;
+			border: 5px inset; lavenderblush;
+			margin: 5px;
+			radius: 5px;
+			font-family: papyrus;
+}
+
+button:link {
+			color: violet;
+		}
+		
+		button:visited {
+			color: blue;
+		}
+		
+		button:hover {
+			color: hotpink;
+		}
+		
+		button:active {
+			color: green;
+}
+
+.winter-theme {
+	background-image: url("https://i.pinimg.com/736x/03/c7/7c/03c77c4381fdf587371cda9754bcad5a.jpg");
+	height: 500px;
+	background-position: center;
+	background-color: powderblue;
+	color: forestgreen;
+button:link {
+			color: red;
+		}
+		
+		button:visited {
+			color: blue;
+		}
+		
+		button:hover {
+			color: darkred;
+		}
+		
+		button:active {
+			color: green;
+}
+
+.winter-button {
+	background: #e74c3c;
+	color: green;
+	border: 5px inset gold;
+}
+}
+.spring-theme {
+	background-image: url("https://i.pinimg.com/736x/57/71/69/577169a8a48ebc3f974b51bac259c641.jpg");
+	height: 500px;
+	background-color: powderblue;
+	color: deeppink;
+button:link {
+			color: darkolivegreen;
+		}
+		
+		button:visited {
+			color: blue;
+		}
+		
+		button:hover {
+			color: deeppink;
+		}
+		
+		button:active {
+			color: green;
+}
+}
+
+.summer-theme {
+	background-image: url("https://i.pinimg.com/736x/7c/c8/7f/7cc87f6c45308dae8608f72af9799cf5.jpg");
+	height: 500px;
+	background-color: powderblue;
+	color: darkorchid;
+button:link {
+			color: darkviolet;
+		}
+		
+		button:visited {
+			color: blue;
+		}
+		
+		button:hover {
+			color: orangered;
+		}
+		
+		button:active {
+			color: green;
+}
